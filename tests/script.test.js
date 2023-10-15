@@ -114,7 +114,7 @@ describe("Aufgabe 7", () => {
     const outputBefore = output.textContent
     writeText()
     const outputTextAfter = output.textContent
-    assert.equal(outputTextAfter, inputText)
+    assert.equal(outputTextAfter, outputBefore + "\n" + inputText)
     output.textContent = outputBefore
   })
 })
