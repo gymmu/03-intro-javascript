@@ -4,5 +4,5 @@ function sayHello() {
 
 function changeBackground() {
   const body = document.querySelector("body")
-  body.style.backgroundColor = "red"
+  body.style.backgroundColor = "darkgrey"
 }
