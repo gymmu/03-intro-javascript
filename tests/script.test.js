@@ -1,16 +1,16 @@
 const assert = chai.assert
 
-describe("Aufgabe 1", () => {
-  it("Die Funktion 'sayHello()' sollte existieren", () => {
+describe("Exercise 1", () => {
+  it("The function 'sayHello()' must exist", () => {
     assert.equal(typeof sayHello, "function")
   })
 })
 
-describe("Aufgabe 2", () => {
-  it("Die Funktion 'changeBackground()' sollte existieren", () => {
+describe("Exercise 2", () => {
+  it("The function 'changeBackground()' must eist", () => {
     assert.equal(typeof changeBackground, "function")
   })
-  it("Sollte die Hintergrundfarbe von body verändern", () => {
+  it("Should change the background color of the body", () => {
     const body = document.querySelector("body")
     const bgColor = document.querySelector("body").style.backgroundColor
     changeBackground()
@@ -20,15 +20,15 @@ describe("Aufgabe 2", () => {
   })
 })
 
-describe("Aufgabe 3", () => {
-  it("Die Funktion 'deleteText()' sollte existieren", () => {
+describe("Exercise 3", () => {
+  it("The function 'deleteText()' must exist", () => {
     assert.equal(typeof deleteText, "function")
   })
-  it("Es soll ein HTML-Element mit der ID 'to-delete' geben", () => {
+  it("There must be an element with the id 'to-delete'", () => {
     const elem = document.querySelector("#to-delete")
     assert.notEqual(elem, null)
   })
-  it("Der Text vom Element #to-delete soll auf 'Inhalt gelöscht' gesetzt werden.", () => {
+  it("The text from the element #to-delete soll auf 'Inhalt gelöscht' gesetzt werden.", () => {
     const elem = document.querySelector("#to-delete")
     const textBefore = elem.textContent
     deleteText()
@@ -39,7 +39,7 @@ describe("Aufgabe 3", () => {
   })
 })
 
-describe("Aufgabe 4", () => {
+describe("Exercise 4", () => {
   it("Die Funktion 'incrementCounter()' sollte existieren", () => {
     assert.equal(typeof incrementCounter, "function")
   })
@@ -58,7 +58,7 @@ describe("Aufgabe 4", () => {
   })
 })
 
-describe("Aufgabe 5", () => {
+describe("Exercise 5", () => {
   it("Die Funktion 'decrementCounter()' sollte existieren", () => {
     assert.equal(typeof decrementCounter, "function")
   })
@@ -77,7 +77,7 @@ describe("Aufgabe 5", () => {
   })
 })
 
-describe("Aufgabe 6", () => {
+describe("Exercise 6", () => {
   it("Die Funktion 'resetCounter()' sollte existieren", () => {
     assert.equal(typeof resetCounter, "function")
   })
@@ -95,7 +95,7 @@ describe("Aufgabe 6", () => {
   })
 })
 
-describe("Aufgabe 7", () => {
+describe("Exercise 7", () => {
   it("Die Funktion 'writeText()' sollte existieren", () => {
     assert.equal(typeof writeText, "function")
   })
