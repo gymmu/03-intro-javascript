@@ -1,53 +1,53 @@
-# Einführung in Javascript
+# Introduction to Javascript
 
-Dieses Repository bietet einen Einstieg in Javascript. Alle Basisinformationen sind bereits vorhanden, und man kann direkt mit Javascript arbeiten. Es gibt ausserdem Tests mit denen man prüfen kann, ob eine Aufgabe richtig gelöst wurde.
+This repository provides an introduction to Javascript. All basic information is already available, and you can start working with Javascript directly. There are also tests that you can use to check whether a task has been solved correctly.
 
-## Aufgaben
+## Tasks
 
-Hier finden Sie eine Sammlung von Aufgaben, an denen Sie Javascript erlernen können.
+Here you will find a collection of tasks to help you learn Javascript.
 
-### Aufgabe 1
+### Task 1
 
-Finden Sie die Funktion `sayHello()` und ändern sie den Namen. Der Test sollte nun fehlschlagen. Ändern Sie den Namen der Funktion zurück, so das der Test richtig wird.
+Find the `sayHello()` function and change its name. The test should now fail. Change the name of the function back so that the test passes.
 
-Führen Sie die Funktion `sayHello()` aus.
+Execute the `sayHello()` function.
 
-### Aufgabe 2
+### Task 2
 
-Finden Sie die Funktion `changeBackground()` und verändern Sie den Wert so, dass der Test fehlschlägt. Ändern Sie die Funktion dann so ab, dass eine Hintergrundfarbe Ihrer Wahl entsteht.
+Find the `changeBackground()` function and modify the value so that the test fails. Then, modify the function to create a background color of your choice.
 
-Führen Sie die Funktion auf Knopfdruck aus.
+Execute the function by pressing a button.
 
-### Aufgabe 3
+### Task 3
 
-Erstellen Sie eine Funktion `deleteText()` und ein HTML-Element mit der ID `to-delete`. Binden Sie die Funktion `deleteText()` an einen Button.
+Create a function `deleteText()` and an HTML element with the ID `to-delete`. Bind the `deleteText()` function to a button.
 
-Die Funktion `deleteText()` soll den Inhalt von dem Element `#to-delete` auf `'Inhalt gelöscht'` setzen.
+The `deleteText()` function should set the content of the `#to-delete` element to 'Content deleted'.
 
-Alle Tests für die Aufgabe 3 müssen korrekt sein.
+All tests for Task 3 must pass.
 
-### Aufgabe 4
+### Task 4
 
-Erstellen Sie ein HTML-Element mit der ID `counter` und dem Wert 0. Erstellen Sie eine Funktion `incrementCounter()`. Diese Funktion soll den Inhalt von `#counter` lesen und den Wert um eins erhöhen.
+Create an HTML element with the ID `counter` and set its value to 0. Create a function `incrementCounter()`. This function should read the content of `#counter` and increase the value by one.
 
-Binden Sie die Funktion `incrementCounter()` an einen Button.
+Bind the `incrementCounter()` function to a button.
 
-### Aufgabe 5
+### Task 5
 
-Erstellen Sie die Funktion `decrementCounter()`, diese zählt das Element `#counter` um eins nach unten.
+Create the function `decrementCounter()`, which decreases the value of the `#counter` element by one.
 
-### Aufgabe 6
+### Task 6
 
-Erstellen Sie die Funktion `resetCounter()`. Mit dieser Funktion soll der Counter auf 0 gesetzt werden. Binden Sie diese Funktion an einen Button.
+Create the function `resetCounter()`. This function should set the counter to 0. Bind this function to a button.
 
-### Aufgabe 7
+### Task 7
 
-Erstellen Sie ein Text-Eingabefeld mit der ID `input` und ein `pre`-Element mit der ID `output`. Erstellen Sie zudem eine Funktion `writeText()`. Diese Funktion soll den Wert von `#input` auslesen, und in `#output` anhängen.
+Create a text input field with the ID `input` and a `pre` element with the ID `output`. Also, create a function `writeText()`. This function should read the value from `#input` and append it to `#output`.
 
-### Aufgabe 8
+### Task 8
 
-Erstellen Sie eigene einfache Aufgaben die Sie mit Ihrem aktuellen Wissen lösen können. Beschreiben Sie die Aufgabe im HTML und schreiben Sie eine Funktion die Ihre Aufgabe löst. Sie können auch andere Element dafür verwenden.
+Create your own simple tasks that you can solve with your current knowledge. Describe the task in HTML and write a function to solve your task. You can also use other elements for this purpose.
 
-### Aufgabe 9
+### Task 9
 
-Machen Sie Notizen zu dem gelernten.Schreiben Sie auf was Sie gelernt haben und wo Sie noch Probleme haben. Machen Sie Ihre Notizen ebenfalls in der HTML-Datei.
+Take notes on what you have learned and where you still face challenges. Write down what you have learned and your notes in the HTML file as well.
